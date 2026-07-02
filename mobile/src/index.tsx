@@ -1,9 +1,6 @@
+import { Redirect } from "expo-router";
 import { Text, View,} from "react-native";
 
 export default function Index() {
-  return (
-    <View className="">
-      <Text>NJEMYd</Text>
-    </View>
-  );
+  return <Redirect href="/(tabs)" />;
 }
